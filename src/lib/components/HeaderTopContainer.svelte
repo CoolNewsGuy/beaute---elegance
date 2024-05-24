@@ -40,9 +40,11 @@
 					<button on:click={() => ($shouldSignupLoginAppear = true)} class="login-btn"
 						><img src={loginIcon} alt="login" /></button
 					>
-					<button on:click={() => ($shouldCartSidebarAppear = true)} class="shopping-cart-btn"
-						><img src={cartIcon} alt="shopping-cart" /></button
-					>
+					
+					<a class="shopping-cart-btn" href="../carte">
+						<img src={cartIcon} alt="shopping-cart" />
+
+						</a>
 				</div>
 			</div>
 		{:else}
@@ -53,9 +55,10 @@
 					><img src={loginIcon} alt="login" /></button
 				>
 				<button class="search-btn"> <img src={searchIcon} alt="search" /></button>
-				<button on:click={() => ($shouldCartSidebarAppear = true)} class="shopping-cart-btn">
-					<img src={cartIcon} alt="shopping-cart" /></button
-				>
+				<a class="shopping-cart-btn" href="../carte">
+					<img src={cartIcon} alt="shopping-cart" />
+
+					</a>
 			</div>
 		{/if}
 	</div>
