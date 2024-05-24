@@ -23,7 +23,6 @@
 
 </svelte:head>
 <header>
-    <HeaderTopContainer />
     <Emptycarte />
 </header>
 
@@ -41,6 +40,12 @@
 		margin-top: 15rem;
 	}
 
+    header {
+        font-family: 'Open Sans', sans-serif;
+        padding-top:16.4rem;
+
+
+    }
 	.footer-title {
 		font-family: 'Abril Fatface';
 		font-weight: lighter;
